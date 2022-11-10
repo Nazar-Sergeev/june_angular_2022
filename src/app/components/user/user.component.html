@@ -1,4 +1,7 @@
 <div>
-  <h4>{{user.id}}. {{user.name}} {{user.username}}</h4>
-  <h6>{{user.email}}</h6>
+<!--  <a routerLink="{{user.id}}" [state]="{user}">{{user.id}}. {{user.name}} {{user.username}}</a>-->
+  {{user.id}}. {{user.name}} {{user.username}}
+  <button (click)="getDetails()">details</button>
+  <button (click)="userDetails(user)">lift</button>
 </div>
+

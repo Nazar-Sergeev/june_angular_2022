@@ -4,3 +4,8 @@ export * from './post/post.component';
 export * from './posts/posts.component';
 export * from './comment/comment.component';
 export * from './comments/comments.component';
+export * from './header/header.component';
+export * from './main-layout/main-layout.component';
+export * from './user-details/user-details.component';
+export * from './posts-details/posts-details.component';
+export * from './comments-details/comments-details.component';
